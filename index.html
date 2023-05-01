@@ -3,6 +3,13 @@
 <head>
 	<title>Love of Sports</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		.team-image {
+			max-width: 200px;
+			max-height: 200px;
+			margin: 10px;
+		}
+	</style>
 </head>
 <body>
 	<header>
@@ -24,25 +31,22 @@
 			<p>Growing up I played basketball, football and baseball. My favorite sport was basketball</p>
 		</section>
 		<section id="teams">
-	<h2>My Teams</h2>
-	<ul>
-		<li>
-			<a href="#">Football Team: San Francisco 49ERS</a>
-			<br>
-			<img src="https://images.squarespace-cdn.com/content/v1/580a770f37c58129c518cc4d/1645687724553-KGJAOOABB7DJJQ3ZAGFG/sf-49ers.jpg" alt="San Francisco 49ers">
-		</li>
-		<li>
-			<a href="#">Basketball Team: Sacramento Kings</a>
-			<br>
-			<img src="https://www.flagcolorcodes.com/images/jpg/sacramento-kings.jpg" alt="Sacramento Kings">
-		</li>
-		<li>
-			<a href="#">Baseball Team: San Francisco Giants</a>
-			<br>
-			<img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/SF-Giants-Logo.jpg" alt="San Francisco Giants">
-		</li>
-	</ul>
-</section>
+			<h2>My Teams</h2>
+			<ul>
+				<li>
+					<div class="team-name"><a href="#">Football Team: San Francisco 49ERS</a></div>
+					<div class="team-image"><img src="https://images.squarespace-cdn.com/content/v1/580a770f37c58129c518cc4d/1645687724553-KGJAOOABB7DJJQ3ZAGFG/sf-49ers.jpg" alt="San Francisco 49ers"></div>
+				</li>
+				<li>
+					<div class="team-name"><a href="#">Basketball Team: Sacramento Kings</a></div>
+					<div class="team-image"><img src="https://www.flagcolorcodes.com/images/jpg/sacramento-kings.jpg" alt="Sacramento Kings"></div>
+				</li>
+				<li>
+					<div class="team-name"><a href="#">Baseball Team: San Francisco Giants</a></div>
+					<div class="team-image"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/SF-Giants-Logo.jpg" alt="San Francisco Giants"></div>
+				</li>
+			</ul>
+		</section>
 		<section id="contact">
 			<h2>Contact Us</h2>
 			<form>
@@ -59,8 +63,3 @@
 			</form>
 		</section>
 	</main>
-	<footer>
-		<p>&copy; 2023 Love of Sports</p>
-	</footer>
-</body>
-</html>
