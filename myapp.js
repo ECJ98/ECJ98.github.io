@@ -1,5 +1,5 @@
-"use strict"
-const express = require("express");
+'use strict';
+const express = require('express');
 const app = express();
 
 // define endpoint for problem 1 here
@@ -54,4 +54,4 @@ app.get("/hello/name", (req, res) => {
 });
 
 const PORT = process.env.PORT || 8000;
-app.listen(PORT)
+app.listen(PORT);
